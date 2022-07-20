@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // TODO: Ë«Ëødouble lock
+// ²»¼Ì³ÐMonoBehaviour
 public class BaseManager<T> where T : new()
 {
     private static T instance;
